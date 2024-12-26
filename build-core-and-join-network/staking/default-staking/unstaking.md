@@ -107,7 +107,7 @@ let payload = {
     params:{
 
         poolPubKey:'9GQ46rqY238rk2neSwgidap9ww5zbAN4dyqyC7j5ZnBK',
-        amount: 30
+        amount: '30000000000000000000'
 
     },
 
@@ -143,7 +143,7 @@ Output:
   creator: '3JAeBnsMedzxjCMNWQYcAXtwGVE9A5DBQyXgWBujtL9R',
   type: 'WVM_CALL',
   nonce: 2,
-  fee: 2,
+  fee: '2000000000000000000',
   payload: {
     shard: 'shard_0',
     contractID: 'system/staking',
@@ -151,7 +151,7 @@ Output:
     gasLimit: 0,
     params: {
       poolPubKey: '9GQ46rqY238rk2neSwgidap9ww5zbAN4dyqyC7j5ZnBK',
-      amount: 30
+      amount: '30000000000000000000'
     },
     imports: []
   },

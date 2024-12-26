@@ -55,8 +55,6 @@ const payload = {
     to: "0x407d73d8a49eeb85d32cf465507dd71d507100c1",
 
     amount: 13.37,
-    
-    shard: shardID,
 
     touchedAccounts:["9GQ46rqY238rk2neSwgidap9ww5zbAN4dyqyC7j5ZnBK","0x407d73d8a49eeb85d32cf465507dd71d507100c1".toLowerCase()]
 
@@ -85,11 +83,10 @@ Example output:
   creator: '9GQ46rqY238rk2neSwgidap9ww5zbAN4dyqyC7j5ZnBK',
   type: 'TX',
   nonce: 1,
-  fee: 0.03,
+  fee: '3000000000000000000',
   payload: {
     to: '0x407d73d8a49eeb85d32cf465507dd71d507100c1',
-    amount: 13.37,
-    shard: 'shard_0',
+    amount: '13370000000000000000'
     touchedAccounts: [
       '9GQ46rqY238rk2neSwgidap9ww5zbAN4dyqyC7j5ZnBK',
       '0x407d73d8a49eeb85d32cf465507dd71d507100c1'

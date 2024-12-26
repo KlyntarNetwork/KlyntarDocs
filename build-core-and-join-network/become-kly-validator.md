@@ -64,7 +64,7 @@ let payload = {
 
     params:{
         
-        percentage:0.3,
+        percentage:30,
         
         poolURL:'http://localhost:7335', // set your own domain/ip
         
@@ -100,14 +100,14 @@ web1337.sendTransaction(tx).then(()=>{
   creator: '3JAeBnsMedzxjCMNWQYcAXtwGVE9A5DBQyXgWBujtL9R',
   type: 'WVM_CALL',
   nonce: 1,
-  fee: 2,
+  fee: '2000000000000000000',
   payload: {
     shard: 'shard_0',
     contractID: 'system/staking',
     method: 'createStakingPool',
     gasLimit: 0,
     params: {
-      percentage: 0.3,
+      percentage: 30,
       poolURL: 'http://localhost:7335',
       wssPoolURL: 'ws://localhost:9335'
     },

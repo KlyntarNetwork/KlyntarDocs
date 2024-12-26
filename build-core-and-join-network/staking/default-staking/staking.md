@@ -216,7 +216,7 @@ The structure of transaction that will be sent to node should be like this:
   creator: '3JAeBnsMedzxjCMNWQYcAXtwGVE9A5DBQyXgWBujtL9R',
   type: 'WVM_CALL',
   nonce: 1,
-  fee: 2,
+  fee: '2000000000000000000',
   payload: {
     shard: 'shard_0',
     contractID: 'system/staking',
@@ -224,7 +224,7 @@ The structure of transaction that will be sent to node should be like this:
     gasLimit: 0,
     params: {
       poolPubKey: '9GQ46rqY238rk2neSwgidap9ww5zbAN4dyqyC7j5ZnBK',
-      amount: 100
+      amount: '100000000000000000000'
     },
     imports: []
   },
