@@ -14,9 +14,14 @@ Netrunner is a specialized tool for quickly launching a testnet. Literally using
 
 ## Currently supported configurations:
 
-1. 1 shard, 2 validators
-2. 3 shards, 5 validators
-3. 1 shard, 21 validators
+{% hint style="info" %}
+The notation **Vx** means number of validators and size of network
+{% endhint %}
+
+1. V1 - testnet with a single validator
+2. V2 - testnet with 2 validators
+3. V5 - testnet with 5 validators
+4. V21 - testnet with 21 validators
 
 ## Where to get it ?
 
