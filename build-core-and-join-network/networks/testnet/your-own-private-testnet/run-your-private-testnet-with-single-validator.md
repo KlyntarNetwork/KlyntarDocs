@@ -2,12 +2,9 @@
 
 ## Intro
 
-The fastest and easiest way to test KLY abilities is to run a local single-node network. This network contains:
+The fastest and easiest way to test KLY abilities is to run a local single-node network. This network contains only 1 node which is validator too.
 
-* 1 node(which is validator)
-* 1 shard(validator is also a shard creator)
-
-This allows you to check transactions sending, contracts calls and major part of available KLY features. Definitely, to discover more you'll need to run multi-node network(for example, to check how sharding works, test cross-shard interactions and so on).
+This allows you to check transactions sending, contracts calls and major part of available KLY features.
 
 ## Prepare genesis and configs
 
@@ -43,13 +40,13 @@ cd CONFIGS
 
 {% file src="../../../../.gitbook/assets/kly_wvm (2).json" %}
 
-{% file src="../../../../.gitbook/assets/config.json" %}
+{% file src="../../../../.gitbook/assets/configs (1).json" %}
 
 ## Set genesis
 
 Now, go to GENESIS directory and add the appropriate genesis file there
 
-{% file src="../../../../.gitbook/assets/genesis (1).json" %}
+{% file src="../../../../.gitbook/assets/genesis (9).json" %}
 
 ## Finally
 
