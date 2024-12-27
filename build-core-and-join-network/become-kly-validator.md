@@ -54,8 +54,6 @@ const fee = 2;
 
 let payload = {
 
-    shard:'shard_0',
-
     contractID:'system/staking',
 
     method:'createStakingPool',
@@ -102,7 +100,6 @@ web1337.sendTransaction(tx).then(()=>{
   nonce: 1,
   fee: '2000000000000000000',
   payload: {
-    shard: 'shard_0',
     contractID: 'system/staking',
     method: 'createStakingPool',
     gasLimit: 0,
