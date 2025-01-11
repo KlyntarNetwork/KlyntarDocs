@@ -24,10 +24,9 @@
         "WAIT_IF_CANT_FIND_AEFP":4000,
     
         "POLLING_TIMEOUT_TO_FIND_AEFP_FOR_QUORUM_THREAD":10000,
-        "TIMEOUT_TO_FIND_TEMP_INFO_ABOUT_LAST_BLOCKS_BY_PREVIOUS_POOLS_ON_SHARDS":10000,
+        "TIMEOUT_TO_FIND_TEMP_INFO_ABOUT_LAST_BLOCKS_BY_PREVIOUS_POOLS":10000,
     
         "TXS_MEMPOOL_SIZE":300000,
-        "EPOCH_EDGE_OPS_MEMPOOL_SIZE":10000,
         "BLOCK_TO_BLOCK_CACHE_SIZE":100000,
         
         "BOOTSTRAP_NODES":[
@@ -41,12 +40,9 @@
             
         "ROUTE_TTL":{
     
-            "MAIN":{},
-    
             "API":{
     
                 "FROM_STATE":5,
-                "NODES":5,
                 "BLOCK":6000,
                 "POOL_STATS":5,
                 "LATEST_N_BLOCKS":5,
@@ -55,11 +51,11 @@
                 "SYNC_STATS":2,
                 "CHAIN_INFO":5,
                 "TX_RECEIPT":100,
-                "VERIFICATION_STATS_PER_POOL":5,
                 "DATA_ABOUT_EPOCH_ON_THREAD":5,
                 "GET_CURRENT_SHARD_LEADERS":5,
                 "GET_EPOCH_BY_INDEX":5,
                 "KLY_EVM_METADATA":5,
+                "QUORUM_URLS_AND_PUBKEYS":5,
                 "VT_TOTAL_STATS":5,
                 "VT_STATS_PER_EPOCH":5
     
