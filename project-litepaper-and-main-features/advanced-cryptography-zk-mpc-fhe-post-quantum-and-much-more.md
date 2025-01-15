@@ -15,7 +15,7 @@ Mainly 2 algorithms are used:
 1. SHA3 - inside the EVM. SHA3 has proven itself as a reliable and widely used algorithm
 2. BLAKE3 - for our needs. Amazingly fast and one of the newest hashing algorithms that even outperforms SHA3 in some metrics. BLAKE3 was chosen as the main candidate to be used as the lead hash function for getting block headers' hashes, hashes of workflows, services archives and so on. Superfast, supports **PRF**, **MAC**, **KDF**, and **XOF** modes, highly parallelizable and so on.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Read more <a href="https://github.com/BLAKE3-team/BLAKE3">https://github.com/BLAKE3-team/BLAKE3</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Read more <a href="https://github.com/BLAKE3-team/BLAKE3">https://github.com/BLAKE3-team/BLAKE3</a></p></figcaption></figure>
 
 Since BLAKE3 supports **XOF** mode i.e. output length of a hash might be variable(like in SHAKE hashing scheme). This is important in case of using them as a quantum secure alternative to 128 or 256 bits schemes which can be abused by Grover or BHT algorithms.
 
@@ -47,7 +47,7 @@ Multi-signatures are versatile and can be useful in many places. For example, th
 
 Thanks to the properties of aggregation, it will not be necessary to store N signatures and N public keys in the blockchain (as happens in naive multi-signature implementations), and instead of N signatures, it will be enough to check only 1 aggregated one, which gives us super efficiency.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p><a href="https://asecuritysite.com/signatures/js_bls">https://asecuritysite.com/signatures/js_bls</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p><a href="https://asecuritysite.com/signatures/js_bls">https://asecuritysite.com/signatures/js_bls</a></p></figcaption></figure>
 
 With BLS you can initiate:
 
@@ -198,7 +198,7 @@ We assume the use of VRF in smart contracts and services on KLYNTAR. Also, it's 
 
 ## FHE - fully homomorphic encryption
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 **Fully Homomorphic Encryption (FHE)** is an advanced cryptographic technique that allows computations to be performed on encrypted data without ever decrypting it. This means sensitive data can remain secure throughout the computation process, even in untrusted environments. The result of the computation is also encrypted and can be decrypted only by the data owner.
 
