@@ -10,11 +10,11 @@ We have 4 types of transactions available below. Currently, parallel transaction
 
 In the interface of explorer you can see the **execution type** of transaction. This is example of parallel transaction:
 
-<div data-full-width="true"><figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure></div>
 
 And this transaction is not parallel - it was executed in a sync way
 
-<div data-full-width="true"><figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Parallel execution for native transactions and WASM vm
 
