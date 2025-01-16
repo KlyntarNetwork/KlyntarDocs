@@ -20,11 +20,31 @@ Klyntar is a decentralized L1 network. The same as Ethereum, Solana, TON and man
 
 ### Maximum decentralization: Multistaking - a nextgen liquid restaking
 
-With the goal of
+In an effort to increase decentralization rates and protect the network, as well as other chains in the ecosystem, we are introducing a multi-staking mechanism - now you can protect the network by delegating your coins from other projects. This increases the number of potential validators in the Klyntar network, which makes the network stronger, more resilient and reliable!
+
+{% content-ref url="multistaking-nextgen-liquid-restaking.md" %}
+[multistaking-nextgen-liquid-restaking.md](multistaking-nextgen-liquid-restaking.md)
+{% endcontent-ref %}
 
 ### Interesting architecture: Multilevel sharding
 
+As we think about the future, we are trying to solve the problem of network scaling right away. Dividing the network into several smaller networks (**shards**) has become a standard in the industry.
+
+We decided to go further and use a multilevel sharding system for greater efficiency. It is like classic sharding, but it has its advantages.
+
+{% content-ref url="multilevel-sharding.md" %}
+[multilevel-sharding.md](multilevel-sharding.md)
+{% endcontent-ref %}
+
 ### Advanced cryptography
+
+Any **crypto**currency contains the word **`crypto`**, which means that cryptography plays an important role in its basis.
+
+In our project, we have collected the most popular and powerful hashing algorithms, signatures and others to use onchain and offchain.
+
+{% content-ref url="advanced-cryptography-zk-mpc-fhe-post-quantum-and-much-more.md" %}
+[advanced-cryptography-zk-mpc-fhe-post-quantum-and-much-more.md](advanced-cryptography-zk-mpc-fhe-post-quantum-and-much-more.md)
+{% endcontent-ref %}
 
 ### 2 most used virtual machines on the board - EVM and WASM
 
