@@ -2,7 +2,7 @@
 
 ## Introduction
 
-<figure><img src="../.gitbook/assets/Pre-made layout 3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 The first widely known cryptocurrency Bitcoin changed the rules of the game in its time. It was a real financial endgame that led to the creation of a multi-trillion crypto industry (as of 2024)
 

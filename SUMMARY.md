@@ -14,7 +14,7 @@
 * [Parallelization](project-litepaper-and-main-features/parallelization.md)
 * [RWX - codeless smart contracts for real world usage](project-litepaper-and-main-features/rwx-codeless-smart-contracts-for-real-world-usage.md)
 * [AI layer](project-litepaper-and-main-features/ai-layer.md)
-* [Quantum currency](project-litepaper-and-main-features/quantum-currency.md)
+* [Quantum future](project-litepaper-and-main-features/quantum-future.md)
 * [Ecosystem & Future services](project-litepaper-and-main-features/ecosystem-and-future-services.md)
 
 ## Other resources & links

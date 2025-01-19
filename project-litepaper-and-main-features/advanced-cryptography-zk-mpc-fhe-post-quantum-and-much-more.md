@@ -15,7 +15,7 @@ Mainly 2 algorithms are used:
 1. SHA3 - inside the EVM. SHA3 has proven itself as a reliable and widely used algorithm
 2. BLAKE3 - for our needs. Amazingly fast and one of the newest hashing algorithms that even outperforms SHA3 in some metrics. BLAKE3 was chosen as the main candidate to be used as the lead hash function for getting block headers' hashes, hashes of workflows, services archives and so on. Superfast, supports **PRF**, **MAC**, **KDF**, and **XOF** modes, highly parallelizable and so on.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Read more <a href="https://github.com/BLAKE3-team/BLAKE3">https://github.com/BLAKE3-team/BLAKE3</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Read more <a href="https://github.com/BLAKE3-team/BLAKE3">https://github.com/BLAKE3-team/BLAKE3</a></p></figcaption></figure>
 
 Since BLAKE3 supports **XOF** mode i.e. output length of a hash might be variable(like in SHAKE hashing scheme). This is important in case of using them as a quantum secure alternative to 128 or 256 bits schemes which can be abused by Grover or BHT algorithms.
 

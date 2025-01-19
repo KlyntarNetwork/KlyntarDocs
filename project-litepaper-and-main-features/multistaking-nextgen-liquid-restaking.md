@@ -8,9 +8,9 @@ In an effort to increase decentralization rates and protect the network, as well
 
 On the page with information about the validator, you will notice the **multistaking points** section. These points are credited to the validator when you stake coins on other blockchains in smart contracts. For this, validators will credit you with part of their rewards depending on the % that you staked.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## What coins can be used for multistaking
 
@@ -32,8 +32,14 @@ Please, DYOR the smart contracts yourself:
 
 {% embed url="https://github.com/KlyntarNetwork/MultistakingContracts" %}
 
-## More details
+## How to start ?
 
 Find more details in appropriate section in our docs
 
 {% embed url="https://docs.klyntar.org/build-core-and-join-network/staking/multistaking" %}
+
+Also, here are two examples of multistaking - with native coins of other networks and ERC-20 tokens in these networks:
+
+{% embed url="https://docs.klyntar.org/build-core-and-join-network/staking/multistaking/work-with-native-coins" %}
+
+{% embed url="https://docs.klyntar.org/build-core-and-join-network/staking/multistaking/work-with-erc-20-tokens" %}
