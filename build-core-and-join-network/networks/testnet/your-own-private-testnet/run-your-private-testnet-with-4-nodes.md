@@ -1,6 +1,6 @@
-# Run your private testnet with 5 nodes and 3 shards
+# Run your private testnet with 5 nodes-validators
 
-## Intro
+## tro
 
 This page contains example files for:
 
@@ -38,22 +38,22 @@ cp /path/to/config/config_1.json CONFIGS
 
 ## Genesis
 
-{% file src="../../../.gitbook/assets/genesis.json" %}
+{% file src="../../../../.gitbook/assets/genesis (11).json" %}
 
 ## Common configs for virtual machines
 
-{% file src="../../../.gitbook/assets/kly_evm.json" %}
+{% file src="../../../../.gitbook/assets/kly_evm.json" %}
 
-{% file src="../../../.gitbook/assets/kly_wvm.json" %}
+{% file src="../../../../.gitbook/assets/kly_wvm.json" %}
 
 ## Configs for all 5 validators
 
-{% file src="../../../.gitbook/assets/config_1.json" %}
+{% file src="../../../../.gitbook/assets/config_1 (3).json" %}
 
-{% file src="../../../.gitbook/assets/config_2.json" %}
+{% file src="../../../../.gitbook/assets/config_2 (3).json" %}
 
-{% file src="../../../.gitbook/assets/config_3.json" %}
+{% file src="../../../../.gitbook/assets/config_3 (3).json" %}
 
-{% file src="../../../.gitbook/assets/config_4.json" %}
+{% file src="../../../../.gitbook/assets/config_4 (3).json" %}
 
-{% file src="../../../.gitbook/assets/config_5.json" %}
+{% file src="../../../../.gitbook/assets/config_5 (3).json" %}
