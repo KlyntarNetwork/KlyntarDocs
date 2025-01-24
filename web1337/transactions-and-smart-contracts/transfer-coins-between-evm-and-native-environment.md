@@ -48,8 +48,6 @@ const keypair = {
 
 };
 
-const shardID = "shard_0";
-
 const payload = {
 
     to: "0x407d73d8a49eeb85d32cf465507dd71d507100c1",
@@ -62,11 +60,11 @@ const payload = {
 
 const fee = 0.03;
 
-const nonce = await web1337.getAccount(shardID,keypair.pub).then(account=>account.nonce+1);
+const nonce = await web1337.getAccount(keypair.pub).then(account=>account.nonce+1);
 
 const txType = "TX";
 
-let tx = web1337.createEd25519Transaction(shardID,txType,keypair.pub,keypair.prv,nonce,fee,payload);
+let tx = web1337.createEd25519Transaction(txType,keypair.pub,keypair.prv,nonce,fee,payload);
 
 console.log(tx);
 
@@ -152,7 +150,7 @@ import Web3 from 'web3';
 
 
 
-const web3 = new Web3('http://localhost:7332/kly_evm_rpc/shard_0');
+const web3 = new Web3('http://localhost:7332/kly_evm_rpc');
 
 // KLY-EVM
 const common = Common.custom({name:'KLYNTAR',networkId:'0x1CA3',chainId:'0x1CA3'},{hardfork:'london'});

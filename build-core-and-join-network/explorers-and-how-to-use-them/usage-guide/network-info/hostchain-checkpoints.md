@@ -23,8 +23,7 @@ A checkpoint is a fact that looks like this, for example:
 ```json
 { 
     epoch: 167,
-    shard: "shard_0",
-    lastShardLeaderPubkey: 27,
+    lastLeaderIndex: 27,
     lastBlockIndexByShardLeader: 56,
     lastBlockHashByShardLeader: 'aaaa...'
 }

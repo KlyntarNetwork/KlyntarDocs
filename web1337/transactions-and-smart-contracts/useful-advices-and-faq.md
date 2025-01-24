@@ -20,8 +20,10 @@ See also [#find-your-transaction-by-tx-id](../../build-core-and-join-network/exp
 
 ## How to calculate the contractID locally to predict the future contract identifier
 
+Contract ID is a concat of address of deployer and nonce. Then, just take hash of this string and add `0x`prefix:
+
 ```javascript
-const contractID = web1337.blake3(shardID+tx.creator+tx.nonce)
+const contractID = `0x${web1337.blake3(tx.creator+tx.nonce)}`
 ```
 
 See:
@@ -50,7 +52,7 @@ For example: you have account \`
 EGU4u3Anwahbtbx8F1ZZgFQSg2u49EkrkqMERT9r3q1o
 ```
 
-\`To find it on shard 0, try to search for:
+To find it on shard 0, try to search for:
 
 ```json
 shard_0:EGU4u3Anwahbtbx8F1ZZgFQSg2u49EkrkqMERT9r3q1o

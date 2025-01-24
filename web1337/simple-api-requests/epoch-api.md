@@ -28,16 +28,16 @@ await web1337.getCurrentEpochOnThread("vt");
 await web1337.getCurrentEpochOnThread("at");
 ```
 
-## Get current leaders on shards
+## Get current leader
 
-Shard leaders are those who are currently generating blocks for a particular shard.
+Leader is a validator who generate blocks in a particular timeframe.
 
-Each epoch, each shard is assigned a list of shard leaders who will receive their own window for generating blocks for a certain time.
+Each epoch, each shard is assigned a list of leaders who will receive their own window for generating blocks for a certain time.
 
-To find out who is currently generating blocks on each shard, use this API
+To find out who is currently generating blocks, use this API
 
 ```javascript
-await web1337.getCurrentLeadersOnShards();
+await web1337.getCurrentLeader();
 ```
 
 ## Get epoch data by epoch index
@@ -60,5 +60,5 @@ This API returns stats for specific epoch. You can use this API, for example, fo
 ```javascript
 let epochIndex = 196;
 
-await web1337.getTotalBlocksAndTxsStatsPerEpoch();
+await web1337.getVerificationThreadStatsPerEpoch()
 ```

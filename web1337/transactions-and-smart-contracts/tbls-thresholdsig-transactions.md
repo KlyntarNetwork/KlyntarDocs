@@ -863,14 +863,10 @@ const tblsAccounts = {
 
 const rootPubKey = crypto.tbls.deriveGroupPubTBLS([tblsAccounts.ALICE.verificationVector,tblsAccounts.BOB.verificationVector,tblsAccounts.CHARLIE.verificationVector]);
 
-
-// ID of shard where you want to transfer KLY or call contract
-const shardID = 'shard_0';
-
 // Default Ed25519
 const recipient = '6S4yLHorBUjSRjFpwxqPUXzwouZwR716CZ5uLmiy9Sze';
 
-const nonce = await web1337.getAccount(shardID,rootPubKey).then(account=>account.nonce+1);
+const nonce = await web1337.getAccount(rootPubKey).then(account=>account.nonce+1);
 
 const fee = 1;
 
@@ -882,9 +878,7 @@ const payload = {
 
     to: recipient,
     
-    amount: amountInKLY,
-    
-    shard:shardID
+    amount: amountInKLY
 
 };
 
@@ -892,8 +886,6 @@ const payload = {
 //_____________ GENERATE SIG_SHARES _____________
 
 const partialSignatureOfFriend1 = await web1337.buildPartialSignatureWithTxData(
-
-    shardID,
     
     txType,
 
@@ -906,8 +898,6 @@ const partialSignatureOfFriend1 = await web1337.buildPartialSignatureWithTxData(
 );
 
 const partialSignatureOfFriend2 = await web1337.buildPartialSignatureWithTxData(
-
-    shardID,
     
     txType,
 
@@ -949,11 +939,10 @@ Output:
   type: 'TX',
   sigType: 'T',
   nonce: 0,
-  fee: 1,
+  fee: '100000000000',
   payload: {
     to: '6S4yLHorBUjSRjFpwxqPUXzwouZwR716CZ5uLmiy9Sze',
-    amount: 13.37,
-    shard:"shard_0"
+    amount: '1337000000000000'
   },
   sig: 'bd602b821a12789cab6e191da09a813b6236fe3eb780a14c88d2a4d192b2221b'
 }
@@ -976,11 +965,10 @@ Tx structure should be like this:
   type: 'TX',
   sigType:'T',
   nonce: 0,
-  fee: 1,
+  fee: "1000000000000000",
   payload: {
     to: '0x8f079049121d5e2ae885bdc6581df9fb68eab94a7aa3ae54bfe1d1ac35aceefbb202f656b0c1b56d64583630612a9970',
-    amount: 13.37,
-    shard:"shard_0",
+    amount: "133700000000000",
     rev_t: 2
   },
   sig: '3a985ce737b26c9217ca9e516c89cd83c0bb8be827cecf95449fee1f6d366081'

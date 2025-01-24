@@ -1,7 +1,5 @@
 # 📃 KLY-WVM - deploy and interact with the smart-contract to WASM vm
 
-<figure><img src="../../../.gitbook/assets/Meme_Kly_Wvm.jpg" alt=""><figcaption></figcaption></figure>
-
 ## Intro
 
 When you have already written and compiled a smart contract in one of the languages ​​supported by WASM, you can perform the deployment procedure.
@@ -21,11 +19,7 @@ let web1337 = new Web1337({
 
 let contractBytecode = fs.readFileSync('./path/to/your/contract.wasm').toString('hex');
 
-const shardID = "shard_0"
-
 let payload = {
-
-    shard:shardID,
 
     bytecode:contractBytecode,
 
@@ -43,6 +37,7 @@ let payload = {
 
 }
 
+const shardID = "shard_0";
 
 let keypair = {
     
@@ -54,14 +49,14 @@ let keypair = {
 
 const fee = 0.03
 
-const nonce = await web1337.getAccount(shardID,keypair.pub).then(account=>account.nonce+1)
+const nonce = await web1337.getAccount(keypair.pub).then(account=>account.nonce+1)
 
 const txType = "WVM_CONTRACT_DEPLOY"
 
-let tx = web1337.createEd25519Transaction(shardID,txType,keypair.pub,keypair.prv,nonce,fee,payload)
+let tx = web1337.createEd25519Transaction(txType,keypair.pub,keypair.prv,nonce,fee,payload)
 
 // Get the ID of contract immediately
-const contractID = web1337.blake3(shardID+tx.creator+tx.nonce)
+const contractID = '0x'+web1337.blake3(tx.creator+tx.nonce)
 
 
 console.log('Contract ID: '+contractID)

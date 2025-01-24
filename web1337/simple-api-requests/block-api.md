@@ -22,30 +22,26 @@ SID stands for **shard index**. Each shard in Klyntar exists as a separate chain
 
 Just like in non-sharded blockchains like Bitcoin, Ethereum, Solana etc. you just need to find for wished height
 
-For example, to get the most first block on `shard_0` just find:
+For example, to get the most first block on just find:
 
 ```javascript
-let shard = "shard_0";
+let absoluteHeight = 0;
 
-let indexInShard = 0;
-
-await web1337.getBlockBySID(shard,indexInShard);
+await web1337.getBlockBySID(absoluteHeight);
 ```
 
 ## Get sequence of N blocks on shard
 
 The same as previous API, but returns the multiple N blocks started from some index.
 
-For example, to get the list of 20 blocks from block 34 to block 34-20=**14**  on shard `shard_0` just try:
+For example, to get the list of 20 blocks from block 34 to block 34-20=**14 ,** just try:
 
 ```javascript
-let shard = "shard_0";
-
 let startIndex = 34;
 
 let limit = 20;
 
-await web1337.getLatestNBlocksOnShard(shard,startIndex,limit);
+await web1337.getLatestNBlocks(shard,startIndex,limit);
 ```
 
 {% hint style="info" %}

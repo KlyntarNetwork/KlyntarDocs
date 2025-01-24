@@ -1,9 +1,5 @@
 # 📃 KLY-EVM - deploy and interact with the smart-contract to EVM
 
-
-
-<figure><img src="../../../.gitbook/assets/You_VS_Meme.jpg" alt=""><figcaption></figcaption></figure>
-
 ## Intro
 
 The Klyntar platform has support for an improved version of the EVM and has been tested up to Solidity **v0.8.17**
@@ -17,10 +13,10 @@ pragma solidity ^0.8.17;
 
 ## What to remember
 
-Since the Klyntar network has multilevel sharding - in the RPC endpoint URL you need to specify a URL of a special form:
+Since the Klyntar network has sharding - use the right URL. Usually, it looks like this:
 
 ```javascript
-const web3 = new Web3('http://localhost:7332/kly_evm_rpc/shard_0')
+const web3 = new Web3('http://localhost:7332/kly_evm_rpc')
 ```
 
 {% hint style="info" %}
@@ -37,7 +33,7 @@ import {Common} from '@ethereumjs/common'
 import Web3 from 'web3'
 
 
-const web3 = new Web3('http://localhost:7332/kly_evm_rpc/shard_0')
+const web3 = new Web3('http://localhost:7332/kly_evm_rpc')
 
 // KLY-EVM
 const common = Common.custom({name:'KLYNTAR',networkId:'0x1CA3',chainId:'0x1CA3'},{hardfork:'london'})

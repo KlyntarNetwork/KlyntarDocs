@@ -156,25 +156,21 @@ const keypair = {
 
 };
 
-const shardID = "shard_0";
-
 const payload = {
 
     to: "Ai1Pk9RzmgeiSAptc1W69NAmSB52GqjNqGdGQGgqxQA1",
 
-    amount: 13.37,
-    
-    shard: shardID
+    amount: 13.37
 
 };
 
 const fee = 0.03;
 
-const nonce = await web1337.getAccount(shardID,keypair.pub).then(account=>account.nonce+1);
+const nonce = await web1337.getAccount(keypair.pub).then(account=>account.nonce+1);
 
 const txType = "TX";
 
-let tx = web1337.createEd25519Transaction(shardID,txType,keypair.pub,keypair.prv,nonce,fee,payload);
+let tx = web1337.createEd25519Transaction(txType,keypair.pub,keypair.prv,nonce,fee,payload);
 
 console.log(tx);
 ```
@@ -203,7 +199,7 @@ console.log(sendStatus);
 
 // After that - you can check the tx receipt
 // TxID - it's a BLAKE3 hash of transaction signature
-let receipt = await web1337.getTransactionReceiptById(web1337.BLAKE3(tx.sig));
+let receipt = await web1337.getTransactionReceiptById(web1337.blake3(tx.sig));
 
 console.log(receipt);
 ```
@@ -221,7 +217,7 @@ console.log(receipt);
 
 where:
 
-* **shard** - context of transaction. Account of sender and recipient also binded to this shard
+* **shard** - context of transaction
 * **blockID** - the block where tx is
 * **order** - position of this tx in block
 * **isOk** - status to check if tx successfully processed or not
@@ -367,8 +363,6 @@ const keypair = {
 // Use the formula rev_t = N-T where N - number of sides, T-threshold
 const reverseThreshold = 1;
 
-const shardID = "shard_0";
-
 const payload = {
 
     to: "0xb89c4bf0b9dab0224201d06d46ed6cb49b94f34f8dc8feb0d7bad77caab5b41fc16531dce9ba2cba5784359d2b701cc4",
@@ -381,11 +375,11 @@ const payload = {
 
 const fee = 0.03;
 
-const nonce = await web1337.getAccount(shardID,keypair.pub).then(account=>account.nonce+1);
+const nonce = await web1337.getAccount(keypair.pub).then(account=>account.nonce+1);
 
 const txType = "TX";
 
-let tx = web1337.createEd25519Transaction(shardID,txType,keypair.pub,keypair.prv,nonce,fee,payload);
+let tx = web1337.createEd25519Transaction(txType,keypair.pub,keypair.prv,nonce,fee,payload);
 
 console.log(tx);
 ```
@@ -418,21 +412,18 @@ After this transaction, new account will be added to state:
     "uno": "0",
     "nonce": 0,
     "gas": 0,
-    "rev_t": 1,
-    "shard": "shard_0"
+    "rev_t": 1
 }
 ```
 
-As you see, new multisig account is created and binded to shard where sender sends KLY. Also, the `rev_t` is set to 1 what means that the number of dissenting sides can be 1.
+As you see, new multisig account is created. Also, the `rev_t` is set to 1 what means that the number of dissenting sides can be 1.
 
 In case account was already in state - get the `rev_t` from information about account:
 
 ```javascript
-const shardID = 'shard_0';
-
 const recipient = '0xb89c4bf0b9dab0224201d06d46ed6cb49b94f34f8dc8feb0d7bad77caab5b41fc16531dce9ba2cba5784359d2b701cc4';
 
-let accountInfo  = await web1337.getAccount(shardID,recipient);
+let accountInfo  = await web1337.getAccount(recipient);
 
 console.log('Account:\n\n',accountInfo);
 ```
@@ -446,8 +437,7 @@ Account
     "uno": 0,
     "nonce": 0,
     "gas": 0,
-    "rev_t": 1,
-    "shard": "shard_0"
+    "rev_t": 1
 }
 ```
 
@@ -478,8 +468,6 @@ const keypair = {
 
 };
 
-const shardID = "shard_0";
-
 const payload = {
 
     to: "b89c4bf0b9dab0224201d06d46ed6cb49b94f34f8dc8feb0d7bad77caab5b41fc16531dce9ba2cba5784359d2b701cc4",
@@ -490,11 +478,11 @@ const payload = {
 
 const fee = 0.03;
 
-const nonce = await web1337.getAccount(shardID,keypair.pub).then(account=>account.nonce+1);
+const nonce = await web1337.getAccount(keypair.pub).then(account=>account.nonce+1);
 
 const txType = "TX";
 
-let tx = web1337.createEd25519Transaction(shardID,txType,keypair.pub,keypair.prv,nonce,fee,payload);
+let tx = web1337.createEd25519Transaction(txType,keypair.pub,keypair.prv,nonce,fee,payload);
 
 console.log(tx);
 ```
@@ -534,9 +522,7 @@ let payload = {
 
     to: "1826d3782d53b127c53129fe67f4a3e3c1140feb2af36a0517077297a6e867e5",
     
-    amount: 13.37,
-    
-    shard:shardID
+    amount: 13.37
     
 }
 ```
@@ -588,8 +574,6 @@ const keypair = {
 
 };
 
-const shardID = "shard_0";
-
 const payload = {
 
     to: "4218fb0aaace62c4bfafbdd9adb05b99a9bf1a33eeae074215a51cb644b9a85c",
@@ -600,11 +584,11 @@ const payload = {
 
 const fee = 0.03;
 
-const nonce = await web1337.getAccount(shardID,keypair.pub).then(account=>account.nonce+1);
+const nonce = await web1337.getAccount(keypair.pub).then(account=>account.nonce+1);
 
 const txType = "TX";
 
-let tx = web1337.createEd25519Transaction(shardID,txType,keypair.pub,keypair.prv,nonce,fee,payload);
+let tx = web1337.createEd25519Transaction(txType,keypair.pub,keypair.prv,nonce,fee,payload);
 
 console.log(tx);
 ```

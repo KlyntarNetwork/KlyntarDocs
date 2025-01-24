@@ -107,8 +107,6 @@ const keypair = {
 
 };
 
-const shardID = "shard_0";
-
 const payload = {
 
     to: "4218fb0aaace62c4bfafbdd9adb05b99a9bf1a33eeae074215a51cb644b9a85c",
@@ -121,11 +119,11 @@ const payload = {
 
 const fee = 0.03;
 
-const nonce = await web1337.getAccount(shardID,keypair.pub).then(account=>account.nonce+1);
+const nonce = await web1337.getAccount(keypair.pub).then(account=>account.nonce+1);
 
 const txType = "TX";
 
-let tx = web1337.createEd25519Transaction(shardID,txType,keypair.pub,keypair.prv,nonce,fee,payload);
+let tx = web1337.createEd25519Transaction(txType,keypair.pub,keypair.prv,nonce,fee,payload);
 
 console.log(tx);
 ```
@@ -153,8 +151,6 @@ let dilithiumKeyPair = {
 
 };
 
-const shardID = 'shard_0';
-
 let blissKeyPair = {
 
     pub: '001b4609d500e31a0a188911900aac07fb06f91566038104e90c01031707d6154701701a15046d07f5089f0c730c8515e712c90b5a130d10081bca0ab40c8f0027101501870ccb17041d691bac0c30162d11ff0566198710f308cd08b30be804261a040c530cb8042e16841623069200b9175410a5016a171e1ceb10f813261bae0acc06be176214471d7013530d92180a0dbd15c800fd09f700ed0a8616141a14095b08a71c3317031d78106602ef1c1f1a53097016df192905b50ad40b5c1d1c027e026b0ecb115417ae1b6f1c1101c60d3f1c12016010a309f8183411840d7d12d414071a5b10d1162111f712951b36066209500e1d137d1dbf055417e6075c0ce307460ff9040715b51d0000cc11cf1bd1194c0a2d19e901191c5306040c8002be0d19024f10b31b19152912fe06900de21b2e10110ab111f80b6403ac1b8505221bac09830e3501a1175705c7138e1db6035c09871c4c121706b70b560ac70c001d2305b0107117ef02c1178a13f010bb193004ca02bc035e036f109419770a2017f11dd00cb3016405b41604091206c61603085208fa0df0130912cb14cd187914b009e306440a3018ca0c5810c305400507103b1113016c0ead00100e3f02b6003410981cdf04c50d0213d61984110c0ba700ae0c8912f618a01a231bc81066010a1d051242103013ac05c30dae14030f890e1117b319a002a707f30923',
@@ -165,9 +161,9 @@ let blissKeyPair = {
 
 const recipient = 'nXSYHp74u88zKPiRi7t22nv4WCBHXUBpGrVw3V93f2s';
 
-const nonceBliss = await web1337.getAccount(shardID,blissKeyPair.address).then(account=>account.nonce+1);
+const nonceBliss = await web1337.getAccount(blissKeyPair.address).then(account=>account.nonce+1);
 
-const nonceDilithium = await web1337.getAccount(shardID,dilithiumKeyPair.address).then(account=>account.nonce+1);
+const nonceDilithium = await web1337.getAccount(dilithiumKeyPair.address).then(account=>account.nonce+1);
 
 const fee = 1;
 
@@ -185,7 +181,7 @@ let payload={
 }
 
 
-let signedDilithiumTx = web1337.createPostQuantumTransaction(shardID,txType,'dilithium',dilithiumKeyPair.address,dilithiumKeyPair.prv,nonceDilithium,fee,payload);
+let signedDilithiumTx = web1337.createPostQuantumTransaction(txType,'dilithium',dilithiumKeyPair.address,dilithiumKeyPair.prv,nonceDilithium,fee,payload);
 
 
 console.log('\n===================== Transaction with Dilithium signature =====================\n');
@@ -196,7 +192,7 @@ console.log('\n===================== Transaction with BLISS signature ==========
 
 // Or BLISS
 
-let signedBlissTx = web1337.createPostQuantumTransaction(shardID,txType,'bliss',blissKeyPair.address,blissKeyPair.prv,nonceBliss,fee,payload);
+let signedBlissTx = web1337.createPostQuantumTransaction(txType,'bliss',blissKeyPair.address,blissKeyPair.prv,nonceBliss,fee,payload);
 
 console.log(signedBlissTx);
 

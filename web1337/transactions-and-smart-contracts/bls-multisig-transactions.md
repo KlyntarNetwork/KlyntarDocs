@@ -59,9 +59,6 @@ const aggregatePubKeyOfThreeFriends = crypto.bls.aggregatePublicKeys([publicKey1
 // Array of pubkeys of friends who dissenting to sign
 const arrayOfAfkSigners = [publicKey4];
 
-// ID of shard where you want to transfer KLY or call contract
-const shardID = 'shard_0';
-
 const recipient = "nXSYHp74u88zKPiRi7t22nv4WCBHXUBpGrVw3V93f2s";
 
 
@@ -81,18 +78,18 @@ let payload = {
 
 const fee = 0.03;
 
-const nonce = await web1337.getAccount(shardID,rootPubKey).then(account=>account.nonce+1);
+const nonce = await web1337.getAccount(rootPubKey).then(account=>account.nonce+1);
 
 const txType = 'TX';
 
 
 // Now 3 sides need to sign the same tx data locally(on their devices)
 
-let signature1 = web1337.signDataForMultisigTransaction(shardID,txType,privateKey1,nonce,fee,payload);
+let signature1 = web1337.signDataForMultisigTransaction(txType,privateKey1,nonce,fee,payload);
 
-let signature2 = web1337.signDataForMultisigTransaction(shardID,txType,privateKey2,nonce,fee,payload);
+let signature2 = web1337.signDataForMultisigTransaction(txType,privateKey2,nonce,fee,payload);
 
-let signature3 = web1337.signDataForMultisigTransaction(shardID,txType,privateKey3,nonce,fee,payload);
+let signature3 = web1337.signDataForMultisigTransaction(txType,privateKey3,nonce,fee,payload);
 
 
 console.log('\n============ Partial signatures ============\n');
@@ -200,9 +197,6 @@ const aggregatePubKeyOfThreeFriends = crypto.bls.aggregatePublicKeys([publicKey1
 // Array of pubkeys of friends who dissenting to sign
 const arrayOfAfkSigners = [publicKey4];
 
-// ID of shard where you want to transfer KLY or call contract
-const shardID = 'shard_0';
-
 const recipient = "0x8f079049121d5e2ae885bdc6581df9fb68eab94a7aa3ae54bfe1d1ac35aceefbb202f656b0c1b56d64583630612a9970"
 
 const rev_t_for_recipient = 1; // imagine that this acccount is 2/3 multisig so allow 1 afk signer
@@ -225,18 +219,18 @@ let payload = {
 
 const fee = 0.03
 
-const nonce = await web1337.getAccount(shardID,rootPubKey).then(account=>account.nonce+1);
+const nonce = await web1337.getAccount(rootPubKey).then(account=>account.nonce+1);
 
 const txType = 'TX'
 
 
 // Now 3 sides need to sign the same tx data locally(on their devices)
 
-let signature1 = web1337.signDataForMultisigTransaction(shardID,txType,privateKey1,nonce,fee,payload);
+let signature1 = web1337.signDataForMultisigTransaction(txType,privateKey1,nonce,fee,payload);
 
-let signature2 = web1337.signDataForMultisigTransaction(shardID,txType,privateKey2,nonce,fee,payload);
+let signature2 = web1337.signDataForMultisigTransaction(txType,privateKey2,nonce,fee,payload);
 
-let signature3 = web1337.signDataForMultisigTransaction(shardID,txType,privateKey3,nonce,fee,payload);
+let signature3 = web1337.signDataForMultisigTransaction(txType,privateKey3,nonce,fee,payload);
 
 
 console.log('\n============ Partial signatures ============\n');
