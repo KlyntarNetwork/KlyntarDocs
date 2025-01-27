@@ -32,8 +32,8 @@ As we think about the future, we are trying to solve the problem of network scal
 
 We decided to go further and use a multilevel sharding system for greater efficiency. It is like classic sharding, but it has its advantages.
 
-{% content-ref url="multilevel-sharding.md" %}
-[multilevel-sharding.md](multilevel-sharding.md)
+{% content-ref url="multilevel-sharding-and-modularity.md" %}
+[multilevel-sharding-and-modularity.md](multilevel-sharding-and-modularity.md)
 {% endcontent-ref %}
 
 ### Advanced cryptography

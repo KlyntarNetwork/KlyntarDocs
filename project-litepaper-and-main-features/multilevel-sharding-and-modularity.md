@@ -1,4 +1,4 @@
-# Multilevel sharding
+# Multilevel sharding and modularity
 
 <figure><img src="../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
 
@@ -41,4 +41,6 @@ At the third level, we are also trying to improve the scalability of the network
 [parallel-execution.md](../web1337/advance-web1337-usage/parallel-execution.md)
 {% endcontent-ref %}
 
-In the future, we also plan to add the ability to separate the block verification process from the approval process, which will make the network more modular and, for example, run two modules on different machines
+## Also
+
+In the future, we also plan to add the ability to separate the block verification process from the approval process, which will make the network **more modular** and, for example, run two modules on different machines
