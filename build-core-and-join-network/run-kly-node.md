@@ -126,7 +126,7 @@ build_kly_evm.bat
 cd ../../
 
 //Linux only
-chmod 700 klyn74r.js
+chmod 700 klyntar_core.js
 ```
 
 ## Prepare configuration and genesis files

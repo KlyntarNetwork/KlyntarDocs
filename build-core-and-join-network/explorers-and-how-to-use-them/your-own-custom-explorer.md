@@ -4,7 +4,7 @@ icon: house-chimney
 
 # Your own custom explorer
 
-Intro
+## Intro
 
 During development, it is often useful to visualize changes in the chain.
 
@@ -15,9 +15,9 @@ That is why we decided to make our explorer open source. But in general, there a
 1. The ability to make changes to the common repository by different developers
 2. The ability to simplify the process of development and interaction with the Klyntar network
 
-Therefore, below you will see the process of launching a local explorer and a short guide on using it using the example of a local testnet with 1 shard and 1 validator
+Therefore, below you will see the process of launching a local explorer and a short guide on using it
 
-<figure><img src="../../.gitbook/assets/Thumbnail.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
 
 ## Installation process
 
@@ -26,7 +26,7 @@ Install **Node.js** first
 Then, clone repository
 
 ```bash
-git clone https://github.com/KLYN74R/Explorer.git
+git clone https://github.com/KlyntarNetwork/Explorer.git
 ```
 
 Then, go to repository and install dependencies
