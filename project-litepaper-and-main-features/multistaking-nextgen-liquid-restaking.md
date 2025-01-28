@@ -8,9 +8,9 @@ In an effort to increase decentralization rates and protect the network, as well
 
 On the page with information about the validator, you will notice the **multistaking points** section. These points are credited to the validator when you stake coins on other blockchains in smart contracts. For this, validators will credit you with part of their rewards depending on the % that you staked.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## What coins can be used for multistaking
 
