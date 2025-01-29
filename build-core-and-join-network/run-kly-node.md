@@ -140,3 +140,15 @@ To find the files that suit you, follow the instructions in the block:
 {% content-ref url="networks/" %}
 [networks](networks/)
 {% endcontent-ref %}
+
+## Install PM2 for production process management
+
+<figure><img src="../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
+
+PM2 is a production process manager for Node.js applications with a built-in load balancer. It allows you to keep applications alive forever, to reload them without downtime and to facilitate common system admin tasks.
+
+{% embed url="https://www.npmjs.com/package/pm2" %}
+
+```
+npm install pm2 -g
+```
