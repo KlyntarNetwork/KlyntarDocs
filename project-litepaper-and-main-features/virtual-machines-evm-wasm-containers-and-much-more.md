@@ -1,4 +1,4 @@
-# Virtual machines - EVM, WASM and much more!
+# Virtual machines - EVM, WASM, containers and much more!
 
 ## Intro
 
@@ -19,3 +19,5 @@ WebAssembly bytecode can be derived from popular languages ​​such as Rust, C
 {% embed url="https://github.com/mbasso/awesome-wasm" %}
 
 Use the power of package managers to import functionality from npm or crates.io for use inside your smart contracts
+
+## Containers - a game changing execution environments

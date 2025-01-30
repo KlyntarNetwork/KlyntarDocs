@@ -9,7 +9,7 @@
 * [Multistaking - nextgen liquid restaking](project-litepaper-and-main-features/multistaking-nextgen-liquid-restaking.md)
 * [Checkpoints mechanism](project-litepaper-and-main-features/checkpoints-mechanism.md)
 * [Advanced cryptography - zk, mpc, fhe, post-quantum and much more!](project-litepaper-and-main-features/advanced-cryptography-zk-mpc-fhe-post-quantum-and-much-more.md)
-* [Virtual machines - EVM, WASM and much more!](project-litepaper-and-main-features/virtual-machines-evm-wasm-and-much-more.md)
+* [Virtual machines - EVM, WASM, containers and much more!](project-litepaper-and-main-features/virtual-machines-evm-wasm-containers-and-much-more.md)
 * [Parallelization](project-litepaper-and-main-features/parallelization.md)
 * [Abstractions - for account, storage and chain](project-litepaper-and-main-features/abstractions-for-account-storage-and-chain.md)
 * [RWX - codeless smart contracts for real world usage](project-litepaper-and-main-features/rwx-codeless-smart-contracts-for-real-world-usage.md)

@@ -50,8 +50,8 @@ In our project, we have collected the most popular and powerful hashing algorith
 
 We want to expand the possibilities of writing smart contracts for our chain as much as possible, so you will have access to the capabilities of the two most popular virtual machines - EVM and WASM. And in the future, there will be more!
 
-{% content-ref url="virtual-machines-evm-wasm-and-much-more.md" %}
-[virtual-machines-evm-wasm-and-much-more.md](virtual-machines-evm-wasm-and-much-more.md)
+{% content-ref url="virtual-machines-evm-wasm-containers-and-much-more.md" %}
+[virtual-machines-evm-wasm-containers-and-much-more.md](virtual-machines-evm-wasm-containers-and-much-more.md)
 {% endcontent-ref %}
 
 ### Codeless smart-contracts - road to smart-contracts usage in real-world business
