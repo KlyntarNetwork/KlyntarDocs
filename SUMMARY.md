@@ -14,6 +14,7 @@
 * [Abstractions - for account, storage and chain](project-litepaper-and-main-features/abstractions-for-account-storage-and-chain.md)
 * [RWX - codeless smart contracts for real world usage](project-litepaper-and-main-features/rwx-codeless-smart-contracts-for-real-world-usage.md)
 * [Shared security model for DApps & chains in ecosystem](project-litepaper-and-main-features/shared-security-model-for-dapps-and-chains-in-ecosystem.md)
+* [Mutations - add new functionality and improvements simple and fast](project-litepaper-and-main-features/mutations-add-new-functionality-and-improvements-simple-and-fast.md)
 * [Forgetfulness - a blockchain cleaning mechanism](project-litepaper-and-main-features/forgetfulness-a-blockchain-cleaning-mechanism.md)
 * [AI layer](project-litepaper-and-main-features/ai-layer.md)
 * [Quantum future](project-litepaper-and-main-features/quantum-future.md)
