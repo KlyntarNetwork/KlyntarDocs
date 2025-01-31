@@ -2,4 +2,8 @@
 
 ## Intro
 
+TODO
+
 ## Cleaning blockchain history after checkpoints to hostchains
+
+TODO
