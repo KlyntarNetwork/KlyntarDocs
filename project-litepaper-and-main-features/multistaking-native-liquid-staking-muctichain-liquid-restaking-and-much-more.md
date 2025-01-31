@@ -11,7 +11,7 @@ In an effort to increase the user experience and add more network features we ar
 Multistaking includes:
 
 1. [#native-liquid-staking](multistaking-native-liquid-staking-muctichain-liquid-restaking-and-much-more.md#native-liquid-staking "mention")
-2. [#multichain-liquid-restaking](multistaking-native-liquid-staking-muctichain-liquid-restaking-and-much-more.md#multichain-liquid-restaking "mention")
+2. [#multichain-liquid-restaking-and-social-value-points](multistaking-native-liquid-staking-muctichain-liquid-restaking-and-much-more.md#multichain-liquid-restaking-and-social-value-points "mention")
 3. Other future options and improvements
 
 ## Native liquid staking
