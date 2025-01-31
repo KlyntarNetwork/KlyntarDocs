@@ -22,8 +22,8 @@ Klyntar is a decentralized L1 network. The same as Ethereum, Solana, TON and man
 
 In an effort to increase decentralization rates and protect the network, as well as other chains in the ecosystem, we are introducing a multi-staking mechanism - now you can protect the network by delegating your coins from other projects. This increases the number of potential validators in the Klyntar network, which makes the network stronger, more resilient and reliable!
 
-{% content-ref url="multistaking-nextgen-liquid-restaking.md" %}
-[multistaking-nextgen-liquid-restaking.md](multistaking-nextgen-liquid-restaking.md)
+{% content-ref url="multistaking-native-liquid-staking-muctichain-liquid-restaking-and-much-more.md" %}
+[multistaking-native-liquid-staking-muctichain-liquid-restaking-and-much-more.md](multistaking-native-liquid-staking-muctichain-liquid-restaking-and-much-more.md)
 {% endcontent-ref %}
 
 ### Interesting architecture: Multilevel sharding

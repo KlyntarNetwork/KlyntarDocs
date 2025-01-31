@@ -6,7 +6,7 @@
 
 * [About project](project-litepaper-and-main-features/about-project.md)
 * [Multilevel sharding and modularity](project-litepaper-and-main-features/multilevel-sharding-and-modularity.md)
-* [Multistaking - nextgen liquid restaking](project-litepaper-and-main-features/multistaking-nextgen-liquid-restaking.md)
+* [Multistaking - native liquid staking, muctichain liquid restaking and much more!](project-litepaper-and-main-features/multistaking-native-liquid-staking-muctichain-liquid-restaking-and-much-more.md)
 * [Checkpoints mechanism](project-litepaper-and-main-features/checkpoints-mechanism.md)
 * [Advanced cryptography - zk, mpc, fhe, post-quantum and much more!](project-litepaper-and-main-features/advanced-cryptography-zk-mpc-fhe-post-quantum-and-much-more.md)
 * [Virtual machines - EVM, WASM, containers and much more!](project-litepaper-and-main-features/virtual-machines-evm-wasm-containers-and-much-more.md)
