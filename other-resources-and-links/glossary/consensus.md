@@ -132,7 +132,7 @@ Aggregation of 2/3N of EFPs gives us AEFP. This is how it looks like:
 
 ```json
 {
-    "shard": "shard_0",
+  
     "lastLeader": 2,
     "lastIndex": 31,
     "lastHash": "ab963df17e1b7f437636e4c5c94b32d43b86049393bafdf01299a304511c59eb",
