@@ -10,7 +10,7 @@ By placing your ERC-20 tokens on a multistaking contract, you receive similar li
 
 This way, you can earn rewards on Klyntar (helping to decentralize the network) and at the same time continue to use the tokens in DeFi applications, lending protocols, etc.
 
-In this tutorial we will show how to restake the Chainlink ERC-20 token in Sepolia testnet, but the same way it works for any other ERC-20 tokens that will be supported by our network.
+In this tutorial we will show how to multistake the Chainlink ERC-20 token in Sepolia testnet, but the same way it works for any other ERC-20 tokens that will be supported by our network.
 
 To get the list of supported ERC-20 tokens - check the docs:
 
@@ -26,23 +26,23 @@ Or via the form on our site:
 
 Visit the page
 
-<figure><img src="../../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
 
 You will see the following interface
 
-<figure><img src="../../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
 
-Now select the chain and wallet to connect
+Now select the chain and press **Select wallet**
 
 {% hint style="info" %}
 In this tutorial we'll work with Sepolia network (Ethereum testnet)
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
 
-Right after connection you will see how much you already restaked on appropriate contract in dollar equivalent
+Right after connection you will see how much you already multistaked on appropriate contract in dollar equivalent
 
-<figure><img src="../../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
 
 Choose the appropraite operation **Deposit** and token to stake - in this case ERC-20 token of Chainlink project:
 
@@ -50,7 +50,7 @@ Choose the appropraite operation **Deposit** and token to stake - in this case E
 
 Input amount of tokens and choose the pool to stake on
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
 
 ### Transaction details
 
@@ -71,9 +71,9 @@ From now you have successfully finish the staking process. You will now receive 
 
 ## 2. Unstaking ERC-20 to burn our liquidity token and get back you original tokens
 
-To unstake - choose the token, input amount and finally the pool
+To unstake - press **Unstake**, choose the token, input amount and finally the pool
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 As before - the unstaking process takes 3 epochs and initially the stake will be placed in the withdrawal requests
@@ -83,7 +83,7 @@ As before - the unstaking process takes 3 epochs and initially the stake will be
 
 It's time to get your original tokens back. Select **Withdraw** and press a button to initiate the transaction
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
 
 If you check via explorer, you will notice that within this transaction, the multistaking contract returned 10 original Chainlink tokens back to your address.
 
