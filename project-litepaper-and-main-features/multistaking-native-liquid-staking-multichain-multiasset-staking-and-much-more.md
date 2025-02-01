@@ -1,4 +1,4 @@
-# Multistaking - native liquid staking, muctichain liquid restaking and much more!
+# Multistaking - native liquid staking, multichain multiasset staking and much more!
 
 ## Intro
 
@@ -10,8 +10,8 @@ In an effort to increase the user experience and add more network features we ar
 
 Multistaking includes:
 
-1. [#native-liquid-staking](multistaking-native-liquid-staking-muctichain-liquid-restaking-and-much-more.md#native-liquid-staking "mention")
-2. [#multichain-liquid-restaking-and-social-value-points](multistaking-native-liquid-staking-muctichain-liquid-restaking-and-much-more.md#multichain-liquid-restaking-and-social-value-points "mention")
+1. [#native-liquid-staking](multistaking-native-liquid-staking-multichain-multiasset-staking-and-much-more.md#native-liquid-staking "mention")
+2. [#multichain-multiasset-staking-and-social-value-points](multistaking-native-liquid-staking-multichain-multiasset-staking-and-much-more.md#multichain-multiasset-staking-and-social-value-points "mention")
 3. Other future options and improvements
 
 ## Native liquid staking
@@ -26,9 +26,9 @@ The network remains decentralized and fault-tolerant, and in addition - validato
 In simple terms - you will be able to transfer coins to other addresses even if they are sent to staking. Since there is no slashing - the rate of the native coin will always be equal to the rate of the liquid staking token
 {% endhint %}
 
-## Multichain liquid restaking & social value points
+## Multichain multiasset staking & social value points
 
-In an effort to increase decentralization rates and protect the network, as well as other chains in the ecosystem, we are introducing a new mechanism - now you can protect the network by delegating your coins, tokens from other projects. Also, you can use **social value points** - details will be later.
+In an effort to increase decentralization rates and protect the network, as well as other chains in the ecosystem, we are introducing a new mechanism - now you can protect the network by delegating your coins, tokens from other projects. Also, you can use **social value points** - details will be later :wink:
 
 This increases the number of potential validators in the Klyntar network, which makes the network stronger, more resilient and reliable!
 
@@ -72,7 +72,7 @@ Find more details in appropriate section in our docs
 
 {% embed url="https://docs.klyntar.org/build-core-and-join-network/staking/multistaking" %}
 
-Also, here are three examples of multichain liquid restaking - with native coins of other networks, ERC-20 tokens in these networks and **social points**:
+Also, here are three examples of multistaking - with native coins of other networks, ERC-20 tokens in these networks and **social points**:
 
 {% embed url="https://docs.klyntar.org/build-core-and-join-network/staking/multistaking/work-with-native-coins" %}
 
