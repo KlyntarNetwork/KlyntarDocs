@@ -44,6 +44,7 @@
 
 * [☁️ Build the core](build-core-and-join-network/run-kly-node.md)
 * [🕵️ Become a validator](build-core-and-join-network/become-kly-validator.md)
+* [Mobile & low power devices validators](build-core-and-join-network/mobile-and-low-power-devices-validators.md)
 * [Staking](build-core-and-join-network/staking/README.md)
   * [Default staking](build-core-and-join-network/staking/default-staking/README.md)
     * [Staking](build-core-and-join-network/staking/default-staking/staking.md)
