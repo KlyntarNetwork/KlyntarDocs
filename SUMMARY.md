@@ -73,6 +73,7 @@
   * [Testnet](build-core-and-join-network/networks/testnet/README.md)
     * [Your own private testnet](build-core-and-join-network/networks/testnet/your-own-private-testnet/README.md)
       * [Netrunner](build-core-and-join-network/networks/testnet/your-own-private-testnet/netrunner.md)
+      * [Netrunner and PM2](build-core-and-join-network/networks/testnet/your-own-private-testnet/netrunner-and-pm2.md)
       * [Run your private testnet with a single validator](build-core-and-join-network/networks/testnet/your-own-private-testnet/run-your-private-testnet-with-single-validator.md)
       * [Run your private testnet with 5 nodes-validators](build-core-and-join-network/networks/testnet/your-own-private-testnet/run-your-private-testnet-with-4-nodes.md)
       * [Run your private testnet with 21 nodes-validators](build-core-and-join-network/networks/testnet/your-own-private-testnet/run-your-private-testnet-with-21-nodes.md)
