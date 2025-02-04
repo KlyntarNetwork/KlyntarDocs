@@ -27,4 +27,4 @@ The notation **Vx** means number of validators and size of network
 
 Go to repository page and follow installation instructions in README
 
-{% embed url="https://github.com/KLYN74R/NetRunner" %}
+{% embed url="https://github.com/KlyntarNetwork/NetRunner" %}
