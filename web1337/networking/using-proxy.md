@@ -10,7 +10,7 @@ description: Use proxy to interact with KLY network
 
 Probably the most known hidden network is TOR. We already have a simple and lightweight docker image for you to set up your own local proxy:
 
-{% embed url="https://github.com/KLYN74R/KlyntarBaseImages/tree/main/Tor" %}
+{% embed url="https://github.com/KlyntarNetwork/KlyntarBaseImages/tree/main/Tor" %}
 
 ### Build
 

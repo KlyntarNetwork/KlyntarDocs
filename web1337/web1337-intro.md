@@ -17,7 +17,7 @@ In conclusion, we can add that Web1337 is Web3++, since KLY offers more features
 
 <figure><img src="../.gitbook/assets/Web1337_Cover.png" alt=""><figcaption></figcaption></figure>
 
-{% embed url="https://github.com/KLYN74R/Web1337" %}
+{% embed url="https://github.com/KlyntarNetwork/Web1337" %}
 
 ## Support
 
