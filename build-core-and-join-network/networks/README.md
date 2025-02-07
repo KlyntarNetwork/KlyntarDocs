@@ -16,6 +16,6 @@ Testnet is your playground for testing transfers, deploying smart-contracts, int
 
 Devnet is a network for developers(team) - it is completely controlled by the Klyntar team and is used for local development, testing new features, etc.
 
-It can be rebooted at any time
+**It can be rebooted at any time**
 
 {% embed url="https://devnet.klyntarscan.org/" %}
