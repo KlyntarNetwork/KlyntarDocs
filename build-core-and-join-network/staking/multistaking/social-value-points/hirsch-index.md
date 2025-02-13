@@ -1,0 +1,6 @@
+---
+icon: h
+---
+
+# Hirsch index
+
