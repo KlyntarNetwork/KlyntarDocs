@@ -138,11 +138,9 @@
 ## Smart Contracts and vms
 
 * [Intro](smart-contracts-and-vms/intro.md)
-* [✨ XVM - Hybrid Virtual Machine](smart-contracts-and-vms/xvm-hybrid-virtual-machine.md)
 * [👩‍💻 KLY-EVM](smart-contracts-and-vms/kly-evm/README.md)
   * [Smart contracts examples](smart-contracts-and-vms/kly-evm/smart-contracts-examples.md)
   * [🧙‍♂️ Magic address](smart-contracts-and-vms/kly-evm/magic-address.md)
-  * [➗ Features of sharding at the EVM level you should know](smart-contracts-and-vms/kly-evm/features-of-sharding-at-the-evm-level-you-should-know.md)
   * [Beyond the VM](smart-contracts-and-vms/kly-evm/beyond-the-vm/README.md)
     * [❎ Call WASM from EVM](smart-contracts-and-vms/kly-evm/beyond-the-vm/call-wasm-from-evm.md)
     * [❎ Call JS from EVM](smart-contracts-and-vms/kly-evm/beyond-the-vm/call-js-from-evm.md)
@@ -152,6 +150,7 @@
   * [Beyond the VM](smart-contracts-and-vms/kly-wvm/beyond-the-vm/README.md)
     * [❎ Call EVM from WASM](smart-contracts-and-vms/kly-wvm/beyond-the-vm/call-evm-from-wasm.md)
     * [❎ Call JS from WASM](smart-contracts-and-vms/kly-wvm/beyond-the-vm/call-js-from-wasm.md)
+* [Containers](smart-contracts-and-vms/containers.md)
 * [🤓 Writing Smart Contracts](smart-contracts-and-vms/writing-smart-contracts/README.md)
   * [Get random value from contract](smart-contracts-and-vms/writing-smart-contracts/get-random-value-from-contract.md)
 * [🧠 Advanced VMs usage](smart-contracts-and-vms/advanced-vms-usage/README.md)
