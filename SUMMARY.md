@@ -70,6 +70,7 @@
       * [TikTok](build-core-and-join-network/staking/multistaking/social-value-points/tiktok.md)
       * [Spotify](build-core-and-join-network/staking/multistaking/social-value-points/spotify.md)
       * [Hirsch index](build-core-and-join-network/staking/multistaking/social-value-points/hirsch-index.md)
+      * [Business value](build-core-and-join-network/staking/multistaking/social-value-points/business-value.md)
   * [Claiming rewards](build-core-and-join-network/staking/claiming-rewards.md)
 * [🕸️ Networks](build-core-and-join-network/networks/README.md)
   * [Testnet](build-core-and-join-network/networks/testnet/README.md)
