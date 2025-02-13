@@ -151,7 +151,7 @@
     * [❎ Call EVM from WASM](smart-contracts-and-vms/kly-wvm/beyond-the-vm/call-evm-from-wasm.md)
     * [❎ Call JS from WASM](smart-contracts-and-vms/kly-wvm/beyond-the-vm/call-js-from-wasm.md)
 * [Containers](smart-contracts-and-vms/containers.md)
-* [🤓 Writing Smart Contracts](smart-contracts-and-vms/writing-smart-contracts/README.md)
+* [🤓 Writing smart contracts](smart-contracts-and-vms/writing-smart-contracts/README.md)
   * [Get random value from contract](smart-contracts-and-vms/writing-smart-contracts/get-random-value-from-contract.md)
 * [🧠 Advanced VMs usage](smart-contracts-and-vms/advanced-vms-usage/README.md)
   * [🔐 Cryptography](smart-contracts-and-vms/advanced-vms-usage/cryptography/README.md)
