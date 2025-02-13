@@ -1,5 +1,5 @@
 ---
-icon: container-storage
+icon: docker
 ---
 
 # Containers
