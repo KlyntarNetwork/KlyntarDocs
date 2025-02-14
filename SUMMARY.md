@@ -181,13 +181,17 @@
 
 * [😦 Return of lost funds](interesting-features-you-must-know/return-of-lost-funds.md)
 
-## Thundercloud
+## Misc
 
-* [🏷️ KLY Aliases](thundercloud/kly-aliases/README.md)
-  * [Web2 domain to KLY Alias](thundercloud/kly-aliases/web2-domain-to-kly-alias.md)
-  * [Web3 domain to KLY Alias](thundercloud/kly-aliases/web3-domain-to-kly-alias.md)
-  * [Social media handle to KLY Alias](thundercloud/kly-aliases/social-media-handle-to-kly-alias.md)
+* [🏷️ KLY Aliases](misc/kly-aliases/README.md)
+  * [Web2 domain to KLY Alias](misc/kly-aliases/web2-domain-to-kly-alias.md)
+  * [Web3 domain to KLY Alias](misc/kly-aliases/web3-domain-to-kly-alias.md)
+  * [Social media handle to KLY Alias](misc/kly-aliases/social-media-handle-to-kly-alias.md)
 
 ## Bots
 
 * [🤖 Intro](bots/intro.md)
+
+## Nodes management and maintaining
+
+* [State pruning](nodes-management-and-maintaining/state-pruning.md)

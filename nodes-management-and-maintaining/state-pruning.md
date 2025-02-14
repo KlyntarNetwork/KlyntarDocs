@@ -1,0 +1,6 @@
+---
+icon: scissors
+---
+
+# State pruning
+
