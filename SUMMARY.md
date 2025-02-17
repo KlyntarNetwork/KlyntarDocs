@@ -13,7 +13,7 @@
 * [Parallelization](project-litepaper-and-main-features/parallelization.md)
 * [Abstractions - for account, storage and chain](project-litepaper-and-main-features/abstractions-for-account-storage-and-chain.md)
 * [RWX - codeless smart contracts for real world usage](project-litepaper-and-main-features/rwx-codeless-smart-contracts-for-real-world-usage.md)
-* [Shared security model for DApps & chains in ecosystem](project-litepaper-and-main-features/shared-security-model-for-dapps-and-chains-in-ecosystem.md)
+* [Unique shared security model](project-litepaper-and-main-features/unique-shared-security-model.md)
 * [Mutations - add new functionality and improvements simple and fast](project-litepaper-and-main-features/mutations-add-new-functionality-and-improvements-simple-and-fast.md)
 * [Forgetfulness - a blockchain cleaning mechanism](project-litepaper-and-main-features/forgetfulness-a-blockchain-cleaning-mechanism.md)
 * [AI layer](project-litepaper-and-main-features/ai-layer.md)
@@ -195,3 +195,10 @@
 ## Nodes management and maintaining
 
 * [State pruning](nodes-management-and-maintaining/state-pruning.md)
+
+## Shared security usage
+
+* [For blockchain networks](shared-security-usage/for-blockchain-networks.md)
+* [For DApps](shared-security-usage/for-dapps.md)
+* [For bridges](shared-security-usage/for-bridges.md)
+* [For oracles](shared-security-usage/for-oracles.md)
