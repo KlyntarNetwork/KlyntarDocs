@@ -173,8 +173,12 @@
 
 * [ℹ️ Intro to real-world-execution smart contracts](rwx-contracts/intro-to-real-world-execution-smart-contracts.md)
 * [How to use RWX contracts in your project or business](rwx-contracts/how-to-use-rwx-contracts-in-your-project-or-business/README.md)
-  * [User-User - agreements between default people](rwx-contracts/how-to-use-rwx-contracts-in-your-project-or-business/user-user-agreements-between-default-people.md)
-  * [User-Business - agreements between customer and business](rwx-contracts/how-to-use-rwx-contracts-in-your-project-or-business/user-business-agreements-between-customer-and-business.md)
+  * [Web2 usage](rwx-contracts/how-to-use-rwx-contracts-in-your-project-or-business/web2-usage/README.md)
+    * [User-User - agreements between default people](rwx-contracts/how-to-use-rwx-contracts-in-your-project-or-business/user-user-agreements-between-default-people.md)
+    * [User-Business - agreements between customer and business](rwx-contracts/how-to-use-rwx-contracts-in-your-project-or-business/user-business-agreements-between-customer-and-business.md)
+  * [Web3 usage](rwx-contracts/how-to-use-rwx-contracts-in-your-project-or-business/web3-usage/README.md)
+    * [Use in standalone blockchain projects](rwx-contracts/how-to-use-rwx-contracts-in-your-project-or-business/web3-usage/use-in-standalone-blockchain-projects.md)
+    * [Use in DApps](rwx-contracts/how-to-use-rwx-contracts-in-your-project-or-business/web3-usage/use-in-dapps.md)
 * [🤝 Create RWX contract and deploy with Web1337](rwx-contracts/create-rwx-contract-and-deploy-with-web1337.md)
 * [🕵️‍♂️ Become verifier](rwx-contracts/become-verifier.md)
 
