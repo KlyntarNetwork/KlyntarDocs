@@ -71,6 +71,7 @@
       * [Spotify](build-core-and-join-network/staking/multistaking/social-value-points/spotify.md)
       * [Hirsch index](build-core-and-join-network/staking/multistaking/social-value-points/hirsch-index.md)
       * [Business value](build-core-and-join-network/staking/multistaking/social-value-points/business-value.md)
+    * [Add your own asset](build-core-and-join-network/staking/multistaking/add-your-own-asset.md)
   * [Claiming rewards](build-core-and-join-network/staking/claiming-rewards.md)
 * [🕸️ Networks](build-core-and-join-network/networks/README.md)
   * [Testnet](build-core-and-join-network/networks/testnet/README.md)
