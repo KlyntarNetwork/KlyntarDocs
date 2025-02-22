@@ -200,6 +200,7 @@
 
 ## Nodes management and maintaining
 
+* [Core version update](nodes-management-and-maintaining/core-version-update.md)
 * [State pruning](nodes-management-and-maintaining/state-pruning.md)
 
 ## Shared security usage
