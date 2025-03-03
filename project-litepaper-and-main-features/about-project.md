@@ -70,6 +70,10 @@ Don't trust - verify. Delegate control of the security of your contract to the n
 
 No code is needed - make a deal using a simple interface. Form the conditions with words. And our network using controllers and AI will help you
 
+### Ecosystem of blockchains
+
+Shared security model, common cross-chain interaction API and so on.
+
 ### Ecosystem of services
 
 Having a powerful L1 chain and many features in our arsenal, we want to be useful for a variety of use cases. In addition to DApps that will be built on the network, we are also going to create services on our side that will expand the scope of our cryptocurrency.
