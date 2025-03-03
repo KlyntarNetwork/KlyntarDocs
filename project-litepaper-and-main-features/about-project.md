@@ -78,7 +78,7 @@ Shared security model, common cross-chain interaction API and so on.
 
 Having a powerful L1 chain and many features in our arsenal, we want to be useful for a variety of use cases. In addition to DApps that will be built on the network, we are also going to create services on our side that will expand the scope of our cryptocurrency.
 
-Such useful services can be applications for RWA, insurance, human rights protection, protection of deals in the real world, AI applications, on-chain services. We plan to make a big bet on RWA and Web2 thanks to our [codeless contracts](about-project.md#codeless-smart-contracts-road-to-smart-contracts-usage-in-real-world-business) and maximum security thanks to [multistaking](about-project.md#maximum-decentralization-multistaking-multichain-multiasset-liquid-staking-for-max-security).
+Such useful services can be applications for RWA, insurance, human rights protection, protection of deals in the real world, AI applications, on-chain services, decentralized storage & GPU computing & cloud. We plan to make a big bet on RWA and Web2 thanks to our [codeless contracts](about-project.md#codeless-smart-contracts-road-to-smart-contracts-usage-in-real-world-business) and maximum security thanks to [multistaking](about-project.md#maximum-decentralization-multistaking-multichain-multiasset-liquid-staking-for-max-security).
 
 ### Let's get started!
 
