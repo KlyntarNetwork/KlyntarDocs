@@ -1,3 +1,7 @@
+---
+icon: draw-square
+---
+
 # Unique shared security model
 
 Coming soon

@@ -1,3 +1,7 @@
+---
+icon: code-commit
+---
+
 # Checkpoints mechanism
 
 ## <mark style="color:red;">Problem</mark>

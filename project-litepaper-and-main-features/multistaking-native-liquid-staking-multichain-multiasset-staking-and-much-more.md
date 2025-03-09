@@ -1,3 +1,7 @@
+---
+icon: square-dollar
+---
+
 # Multistaking - native liquid staking, multichain multiasset staking and much more!
 
 ## Intro

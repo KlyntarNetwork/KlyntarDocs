@@ -1,2 +1,6 @@
-# Quantum currency
+---
+icon: atom
+---
+
+# Quantum future
 

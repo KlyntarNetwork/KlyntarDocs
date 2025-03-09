@@ -1,3 +1,7 @@
+---
+icon: superpowers
+---
+
 # Advanced cryptography - zk, mpc, fhe, post-quantum and much more!
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>

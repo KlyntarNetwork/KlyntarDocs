@@ -16,6 +16,7 @@
 * [Unique shared security model](project-litepaper-and-main-features/unique-shared-security-model.md)
 * [Mutations - add new functionality and improvements simple and fast](project-litepaper-and-main-features/mutations-add-new-functionality-and-improvements-simple-and-fast.md)
 * [Forgetfulness - a blockchain cleaning mechanism](project-litepaper-and-main-features/forgetfulness-a-blockchain-cleaning-mechanism.md)
+* [Low validator requirements and mobile validation](project-litepaper-and-main-features/low-validator-requirements-and-mobile-validation.md)
 * [AI layer](project-litepaper-and-main-features/ai-layer.md)
 * [Quantum future](project-litepaper-and-main-features/quantum-future.md)
 * [Ecosystem & Future services](project-litepaper-and-main-features/ecosystem-and-future-services.md)

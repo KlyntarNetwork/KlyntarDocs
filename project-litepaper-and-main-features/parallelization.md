@@ -1,3 +1,7 @@
+---
+icon: split
+---
+
 # Parallelization
 
 ## Intro

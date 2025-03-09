@@ -1,3 +1,7 @@
+---
+icon: line-columns
+---
+
 # Multilevel sharding and modularity
 
 <figure><img src="../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>

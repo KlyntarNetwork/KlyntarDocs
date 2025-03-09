@@ -1,3 +1,7 @@
+---
+icon: laptop-code
+---
+
 # Virtual machines - EVM, WASM, containers and much more!
 
 ## Intro

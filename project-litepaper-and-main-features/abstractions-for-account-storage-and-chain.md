@@ -1,3 +1,7 @@
+---
+icon: webhook
+---
+
 # Abstractions - for account, storage and chain
 
 ## Intro
@@ -11,8 +15,6 @@ In an effort to improve our services and give you new opportunities, we present 
 ## 1. Account abstraction 2.0 🟢 - pay for gas in any token on any chain
 
 Extension to use everything what has a value as a fee. Execute smart-contracts or average address-address transactions by paying fees in memecoins, stablecoins or any other asset. Any chain, any asset.
-
-
 
 ## 2. Storage Abstraction 🟢
 

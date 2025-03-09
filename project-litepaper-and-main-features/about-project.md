@@ -1,3 +1,7 @@
+---
+icon: file-circle-info
+---
+
 # About project
 
 ## Introduction

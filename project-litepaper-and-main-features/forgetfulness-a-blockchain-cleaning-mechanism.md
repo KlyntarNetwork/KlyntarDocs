@@ -1,3 +1,7 @@
+---
+icon: face-clouds
+---
+
 # Forgetfulness - a blockchain cleaning mechanism
 
 ## Intro
