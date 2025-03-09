@@ -57,6 +57,7 @@
     * [Work with ERC-20 tokens](build-core-and-join-network/staking/multistaking/work-with-erc-20-tokens.md)
     * [Work with ERC-721 tokens](build-core-and-join-network/staking/multistaking/work-with-erc-721-tokens.md)
     * [Other](build-core-and-join-network/staking/multistaking/other/README.md)
+      * [Work with Bitcoin, Litecoin and Doge](build-core-and-join-network/staking/multistaking/other/work-with-bitcoin-litecoin-and-doge.md)
       * [Work with TRON network](build-core-and-join-network/staking/multistaking/other/work-with-tron-network.md)
       * [Work with XRP network](build-core-and-join-network/staking/multistaking/other/work-with-xrp-network.md)
     * [Social value points](build-core-and-join-network/staking/multistaking/social-value-points/README.md)
