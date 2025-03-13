@@ -166,8 +166,7 @@ chmod 700 klyntar_core.js
 
 Depending on the network you want to connect to, you will need an appropriate genesis file, as well as a set of configurations for your node.
 
-To find the files that suit you, follow the instructions in the section [**Networks**](networks/):
+To find the files that suit you, follow the instructions in the section [**Networks**](networks/)
 
-{% content-ref url="networks/" %}
-[networks](networks/)
-{% endcontent-ref %}
+1. [setup-testnet-node.md](networks/testnet/public-testnets/setup-testnet-node.md "mention")
+2. [setup-mainnet-node.md](networks/mainnet/setup-mainnet-node.md "mention")
