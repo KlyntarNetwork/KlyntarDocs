@@ -1,6 +1,2 @@
----
-icon: hands-holding-circle
----
-
-# Staking
+# 🪙 Staking
 
