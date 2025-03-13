@@ -50,6 +50,35 @@ As a package manager for Node.js we use pnpm. To install it globally, run:
 npm install -g pnpm
 ```
 
+## Install PM2 for production process management
+
+<figure><img src="../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
+
+PM2 is a production process manager for Node.js applications with a built-in load balancer. It allows you to keep applications alive forever, to reload them without downtime and to facilitate common system admin tasks.
+
+**You can install it globally using the command:**
+
+```
+npm install pm2 -g
+```
+
+{% embed url="https://www.npmjs.com/package/pm2" %}
+
+PM2 allows you to manage and monitor a node/validator in production mode. So, you can simply start the node/validator via PM2 to:
+
+1. Run the node as a background service - so you can close the console, close the SSH connection to server and node will work on background
+2. Have access to logs stream to monitor node status
+
+Here are some useful commands
+
+```
+pm2 start <service_name> - to start the core as background service
+pm2 stop <service_name> - to stop the core
+pm2 monit <service_name> - start console dashboard with logs, memory usage, etc.
+pm2 logs <service_name> - start logs stream
+pm2 logs <service_name> --lines <x> --nostream - read last X lines of logs from error stream and normal logs stream
+```
+
 ## After all
 
 Now, clone the core repository
@@ -140,30 +169,3 @@ To find the files that suit you, follow the instructions in the block:
 {% content-ref url="networks/" %}
 [networks](networks/)
 {% endcontent-ref %}
-
-## Install PM2 for production process management
-
-<figure><img src="../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
-
-PM2 is a production process manager for Node.js applications with a built-in load balancer. It allows you to keep applications alive forever, to reload them without downtime and to facilitate common system admin tasks.
-
-{% embed url="https://www.npmjs.com/package/pm2" %}
-
-```
-npm install pm2 -g
-```
-
-PM2 allows you to manage and monitor a node/validator in production mode. So, you can simply start the node/validator via PM2 to:
-
-1. Run the node as a background service - so you can close the console, close the SSH connection to server and node will work on background
-2. Have access to logs stream to monitor node status
-
-Here are some useful commands
-
-```
-pm2 start <service_name> - to start the core as background service
-pm2 stop <service_name> - to stop the core
-pm2 monit <service_name> - start console dashboard with logs, memory usage, etc.
-pm2 logs <service_name> - start logs stream
-pm2 logs <service_name> --lines <x> --nostream - read last X lines of logs from error stream and normal logs stream
-```
