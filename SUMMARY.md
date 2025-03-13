@@ -92,14 +92,16 @@
     * [Network Info](build-core-and-join-network/explorers-and-how-to-use-them/usage-guide/network-info/README.md)
       * [Epoches data](build-core-and-join-network/explorers-and-how-to-use-them/usage-guide/network-info/epoches-data.md)
       * [Hostchain checkpoints](build-core-and-join-network/explorers-and-how-to-use-them/usage-guide/network-info/hostchain-checkpoints.md)
-* [Testnet faucets](build-core-and-join-network/testnet-faucets.md)
 * [🕸️ Networks](build-core-and-join-network/networks/README.md)
   * [Testnet](build-core-and-join-network/networks/testnet/README.md)
     * [Your own private testnet](build-core-and-join-network/networks/testnet/your-own-private-testnet/README.md)
       * [Netrunner](build-core-and-join-network/networks/testnet/your-own-private-testnet/netrunner.md)
       * [Netrunner and PM2](build-core-and-join-network/networks/testnet/your-own-private-testnet/netrunner-and-pm2.md)
-    * [Public testnets](build-core-and-join-network/networks/testnet/public-testnets.md)
-  * [Mainnet](build-core-and-join-network/networks/mainnet.md)
+    * [Public testnets](build-core-and-join-network/networks/testnet/public-testnets/README.md)
+      * [Testnet faucets](build-core-and-join-network/networks/testnet/public-testnets/testnet-faucets.md)
+      * [Setup testnet node](build-core-and-join-network/networks/testnet/public-testnets/setup-testnet-node.md)
+  * [Mainnet](build-core-and-join-network/networks/mainnet/README.md)
+    * [Setup mainnet node](build-core-and-join-network/networks/mainnet/setup-mainnet-node.md)
 
 ## Web1337
 

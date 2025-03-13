@@ -1,0 +1,2 @@
+# Setup testnet node
+
