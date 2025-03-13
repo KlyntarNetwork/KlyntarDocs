@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Getting started](README.md)
+* [Klyntar project intro](README.md)
 
 ## Project litepaper and main features
 
@@ -78,13 +78,6 @@
     * [Add your own asset](build-core-and-join-network/staking/multistaking/add-your-own-asset.md)
     * [Connect your stakes from EigenLayer, Karak, Babylon, Solayer, etc.](build-core-and-join-network/staking/multistaking/connect-your-stakes-from-eigenlayer-karak-babylon-solayer-etc..md)
   * [Claiming rewards](build-core-and-join-network/staking/claiming-rewards.md)
-* [🕸️ Networks](build-core-and-join-network/networks/README.md)
-  * [Testnet](build-core-and-join-network/networks/testnet/README.md)
-    * [Your own private testnet](build-core-and-join-network/networks/testnet/your-own-private-testnet/README.md)
-      * [Netrunner](build-core-and-join-network/networks/testnet/your-own-private-testnet/netrunner.md)
-      * [Netrunner and PM2](build-core-and-join-network/networks/testnet/your-own-private-testnet/netrunner-and-pm2.md)
-    * [Public testnets](build-core-and-join-network/networks/testnet/public-testnets.md)
-  * [Mainnet](build-core-and-join-network/networks/mainnet.md)
 * [⚙️ Customizations](build-core-and-join-network/customizations/README.md)
   * [Create own mutation](build-core-and-join-network/customizations/create-own-mutation.md)
   * [Create own plugin](build-core-and-join-network/customizations/create-own-plugin.md)
@@ -99,6 +92,13 @@
     * [Network Info](build-core-and-join-network/explorers-and-how-to-use-them/usage-guide/network-info/README.md)
       * [Epoches data](build-core-and-join-network/explorers-and-how-to-use-them/usage-guide/network-info/epoches-data.md)
       * [Hostchain checkpoints](build-core-and-join-network/explorers-and-how-to-use-them/usage-guide/network-info/hostchain-checkpoints.md)
+* [🕸️ Networks](build-core-and-join-network/networks/README.md)
+  * [Testnet](build-core-and-join-network/networks/testnet/README.md)
+    * [Your own private testnet](build-core-and-join-network/networks/testnet/your-own-private-testnet/README.md)
+      * [Netrunner](build-core-and-join-network/networks/testnet/your-own-private-testnet/netrunner.md)
+      * [Netrunner and PM2](build-core-and-join-network/networks/testnet/your-own-private-testnet/netrunner-and-pm2.md)
+    * [Public testnets](build-core-and-join-network/networks/testnet/public-testnets.md)
+  * [Mainnet](build-core-and-join-network/networks/mainnet.md)
 * [Testnet faucets](build-core-and-join-network/testnet-faucets.md)
 
 ## Web1337

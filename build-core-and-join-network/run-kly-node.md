@@ -8,7 +8,7 @@ Since the core is written on Node.js you should to install it. If you already ha
 
 {% tabs %}
 {% tab title="Linux" %}
-```bash
+```sh
 johndoe@klyntar:~$ node -v
 v21.4.0
 ```
@@ -58,7 +58,7 @@ PM2 is a production process manager for Node.js applications with a built-in loa
 
 **You can install it globally using the command:**
 
-```
+```sh
 npm install pm2 -g
 ```
 
@@ -158,13 +158,15 @@ cd ../../
 chmod 700 klyntar_core.js
 ```
 
-## Prepare configuration and genesis files
+{% hint style="success" %}
+**At this stage, the build process ends and the preparation of files for work begins**
+{% endhint %}
 
-At this stage, the build process ends and the preparation of files for work begins.
+## Prepare configuration and genesis files
 
 Depending on the network you want to connect to, you will need an appropriate genesis file, as well as a set of configurations for your node.
 
-To find the files that suit you, follow the instructions in the block:
+To find the files that suit you, follow the instructions in the section [**Networks**](networks/):
 
 {% content-ref url="networks/" %}
 [networks](networks/)
