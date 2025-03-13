@@ -92,6 +92,7 @@
     * [Network Info](build-core-and-join-network/explorers-and-how-to-use-them/usage-guide/network-info/README.md)
       * [Epoches data](build-core-and-join-network/explorers-and-how-to-use-them/usage-guide/network-info/epoches-data.md)
       * [Hostchain checkpoints](build-core-and-join-network/explorers-and-how-to-use-them/usage-guide/network-info/hostchain-checkpoints.md)
+* [Testnet faucets](build-core-and-join-network/testnet-faucets.md)
 * [🕸️ Networks](build-core-and-join-network/networks/README.md)
   * [Testnet](build-core-and-join-network/networks/testnet/README.md)
     * [Your own private testnet](build-core-and-join-network/networks/testnet/your-own-private-testnet/README.md)
@@ -99,7 +100,6 @@
       * [Netrunner and PM2](build-core-and-join-network/networks/testnet/your-own-private-testnet/netrunner-and-pm2.md)
     * [Public testnets](build-core-and-join-network/networks/testnet/public-testnets.md)
   * [Mainnet](build-core-and-join-network/networks/mainnet.md)
-* [Testnet faucets](build-core-and-join-network/testnet-faucets.md)
 
 ## Web1337
 
