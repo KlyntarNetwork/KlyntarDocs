@@ -1,3 +1,7 @@
+---
+icon: magnifying-glass-waveform
+---
+
 # Netrunner and PM2
 
 ## Using PM2 for production management
