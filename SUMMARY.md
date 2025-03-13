@@ -207,6 +207,8 @@
 * [Core version update](nodes-management-and-maintaining/core-version-update.md)
 * [State pruning](nodes-management-and-maintaining/state-pruning.md)
 * [Launch own PoD (point of distribution)](nodes-management-and-maintaining/launch-own-pod-point-of-distribution.md)
+* [Recovery process](nodes-management-and-maintaining/recovery-process.md)
+* [Fast sync](nodes-management-and-maintaining/fast-sync.md)
 
 ## Shared security usage
 

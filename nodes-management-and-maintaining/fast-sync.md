@@ -1,0 +1,6 @@
+---
+icon: forward
+---
+
+# Fast sync
+
