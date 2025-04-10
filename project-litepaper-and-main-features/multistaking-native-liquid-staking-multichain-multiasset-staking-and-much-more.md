@@ -42,9 +42,9 @@ On the page with information about the validator, you will notice the **multista
 
 For this, validators will credit you with part of their rewards depending on the % that you staked.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### What coins/tokens/else can be used for multistaking
 

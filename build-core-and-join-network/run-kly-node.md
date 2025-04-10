@@ -1,10 +1,24 @@
 # ☁️ Build the core
 
+## Golang installation
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+First part of Klyntar is written using Go language, so you need to install it. Use this guide to install Golang for your platform & architecture
+
+{% embed url="https://go.dev/doc/install" %}
+
+Or, check if you already have Go
+
+```sh
+go version
+```
+
 ## Node.js installation
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Since the core is written on Node.js you should to install it. If you already have installed, we recommend checking the version. The recommended version is **v21.4.0**
+Part of core is written on Node.js so you should to install it. If you already have installed, we recommend checking the version. The recommended version is **v21.4.0**
 
 {% tabs %}
 {% tab title="Linux" %}
@@ -26,23 +40,9 @@ Use official guides to install Node.js for your platform (Windows/Linux/Mac)
 
 {% embed url="https://nodejs.org/en/download/package-manager" %}
 
-## Go installation
-
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-Some parts of KLY is written on Go(for example, PQC schemes), so you need to install it too. Use this guide to install Golang for your platform & architecture
-
-{% embed url="https://go.dev/doc/install" %}
-
-Or, check if you already have Go
-
-```sh
-go version
-```
-
 ## PNPM install
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 As a package manager for Node.js we use pnpm. To install it globally, run:
 
