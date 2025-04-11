@@ -19,6 +19,7 @@
 * [Low validator requirements and mobile validation](project-litepaper-and-main-features/low-validator-requirements-and-mobile-validation.md)
 * [AI layer](project-litepaper-and-main-features/ai-layer.md)
 * [Quantum future](project-litepaper-and-main-features/quantum-future.md)
+* [Bring your social value to alternative economy](project-litepaper-and-main-features/bring-your-social-value-to-alternative-economy.md)
 * [Ecosystem & Future services](project-litepaper-and-main-features/ecosystem-and-future-services.md)
 
 ## Other resources & links
