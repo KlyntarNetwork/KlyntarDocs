@@ -83,7 +83,7 @@ build_kly_evm.bat
 {% endtab %}
 {% endtabs %}
 
-### Return to main directory
+## Return to main directory
 
 ```sh
 cd ../../
