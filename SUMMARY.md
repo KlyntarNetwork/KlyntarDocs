@@ -43,7 +43,8 @@
 
 ## build core and join network
 
-* [☁️ Build the core](build-core-and-join-network/run-kly-node.md)
+* [☁️ Build the core](build-core-and-join-network/run-kly-node/README.md)
+  * [Build process](build-core-and-join-network/run-kly-node/build-process.md)
 * [🕸️ Networks](build-core-and-join-network/networks/README.md)
   * [Testnet](build-core-and-join-network/networks/testnet/README.md)
     * [Your own private testnet](build-core-and-join-network/networks/testnet/your-own-private-testnet/README.md)
