@@ -5,6 +5,7 @@
 ## Project litepaper and main features
 
 * [About project](project-litepaper-and-main-features/about-project.md)
+* [Unique architecture - take the best from L1 and L2 chains](project-litepaper-and-main-features/unique-architecture-take-the-best-from-l1-and-l2-chains.md)
 * [Multilevel sharding and modularity](project-litepaper-and-main-features/multilevel-sharding-and-modularity.md)
 * [Multistaking - native liquid staking, multichain multiasset staking and much more!](project-litepaper-and-main-features/multistaking-native-liquid-staking-multichain-multiasset-staking-and-much-more.md)
 * [Checkpoints mechanism](project-litepaper-and-main-features/checkpoints-mechanism.md)
